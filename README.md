@@ -80,12 +80,6 @@ scikit-learn
 requests
 ```
 
-You can generate your own using:
-
-```bash
-pip freeze > requirements.txt
-```
-
 ---
 
 ## 📸 Optional: Git LFS for `.pkl` files

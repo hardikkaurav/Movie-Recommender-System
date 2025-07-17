@@ -80,27 +80,3 @@ scikit-learn
 requests
 ```
 
----
-
-## 📸 Optional: Git LFS for `.pkl` files
-
-If your `movie_dict.pkl` or `similarity.pkl` files are large, use **Git LFS**:
-
-```bash
-git lfs install
-git lfs track "*.pkl"
-git add .gitattributes
-git add movie_dict.pkl similarity.pkl
-git commit -m "Track large files with Git LFS"
-```
-
----
-
-## 🌐 Deploy to Streamlit Cloud
-
-1. Push your code to GitHub
-2. Go to: [https://streamlit.io/cloud](https://streamlit.io/cloud)
-3. Connect your GitHub repo
-4. Deploy!
-
----
